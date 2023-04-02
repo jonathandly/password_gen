@@ -67,7 +67,7 @@ function boxCheck() {
         checkCount = 1
     } else if(symbolsId.checked && !uppercaseId.checked && !lowercaseId.checked && !numbersId.checked) {
         checkCount = 1
-    } else if(uppercaseId.checked && lowercaseId.checked && !numbersId.checked && !symbolsId.checked || uppercaseId.checked && numbersId.checked && !lowercaseId.checked && !symbolsId.checked || uppercaseId.checked && symbolsId.checked && !lowercaseId.checked && !numbersId.checked || lowercaseId.checked && numbersId.checked && !uppercaseId.checked && !symbols.checked || lowercaseId.checked && symbolsId.checked && !uppercaseId.checked && !numbersId.checked || numbersId.checked && symbolsId.checked && !uppercaseId.checked && !lowercaseId.checked) {
+    } else if(uppercaseId.checked && lowercaseId.checked && !numbersId.checked && !symbolsId.checked || uppercaseId.checked && numbersId.checked && !lowercaseId.checked && !symbolsId.checked || uppercaseId.checked && symbolsId.checked && !lowercaseId.checked && !numbersId.checked || lowercaseId.checked && numbersId.checked && !uppercaseId.checked && !symbolsId.checked || lowercaseId.checked && symbolsId.checked && !uppercaseId.checked && !numbersId.checked || numbersId.checked && symbolsId.checked && !uppercaseId.checked && !lowercaseId.checked) {
         checkCount = 2
     } else if(uppercaseId.checked && lowercaseId.checked && numbersId.checked && !symbolsId.checked || lowercaseId.checked && numbersId.checked && symbolsId.checked && !uppercaseId.checked || uppercaseId.checked && lowercaseId.checked && symbolsId.checked && !numbersId.checked || uppercaseId.checked && numbersId.checked && symbolsId.checked && !lowercaseId.checked) {
         checkCount = 3
